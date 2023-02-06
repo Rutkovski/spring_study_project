@@ -1,4 +1,4 @@
-package hibernate_test_2.entity;
+package hibernate_one_to_one.entity;
 
 import jakarta.persistence.*;
 
@@ -33,6 +33,7 @@ public class Employee {
         this.department = department;
         this.salary = salary;
     }
+
 
     @Override
     public String toString() {
